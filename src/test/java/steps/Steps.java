@@ -19,12 +19,12 @@ public class Steps {
     }
 
     @When("doy click en la opción iniciar sesión")
-    public void dirigeAIniciarSesión() {
+    public void dirigeAIniciarSesion() {
         storepage.dirigirseALogin();
     }
 
     @And("doy click en el link text cree una cuenta aquí")
-    public void doyClickCreeUnaCuentaAquí() {
+    public void doyClickCreeUnaCuentaAqui() {
         storepage.creeCuenta();
     }
 
@@ -35,7 +35,7 @@ public class Steps {
     }
 
     @And("doy click en el botón guardar")
-    public void doyClickEnElBotónGuardar() {
+    public void doyClickEnElBotonGuardar() {
         storepage.buttonGuardar();
 
 
