@@ -43,10 +43,9 @@ public class StorePage {
         fecNac.sendKeys(fechaNacimiento);
     }
 
-    public void buttonGuardar() throws InterruptedException {
+    public void buttonGuardar()  {
         WebElement Guardar = driver.findElement(By.xpath("//button[@data-link-action='save-customer']"));
         Guardar.click();
-        Thread.sleep(5000);
     }
 
 }

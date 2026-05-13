@@ -35,7 +35,7 @@ public class Steps {
     }
 
     @And("doy click en el botón guardar")
-    public void doyClickEnElBotónGuardar() throws InterruptedException {
+    public void doyClickEnElBotónGuardar() {
         storepage.buttonGuardar();
 
 
